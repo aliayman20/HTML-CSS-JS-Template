@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Template-1</title>
+    <link rel="stylesheet" href="CSS/font-awesome.min.css">
+    <link rel="stylesheet" href="CSS/normalize.css">
+    <link rel="stylesheet" href="CSS/template-1.css">
+    <!--<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap"> 
+  </head>
+  <body>
+    <!--Start Settings Box--> 
+    <div class="settings-box">
+      <div class="toggle-settings">
+        <i class="fa fa-gear fa-spin"></i> 
+      </div>
+      <div class="setting-container">
+        <div class="option-box">
+          <h4>Colors</h4>
+          <ul class="color-list">
+            <li class="active" data-color="#ff9800"></li>
+            <li data-color="#e70176"></li>
+            <li data-color="#7801e7f4"></li>
+            <li data-color="#18c07fb0"> </li>
+            <li data-color="#009688"></li>
+          </ul>
+        </div>
+        <div class="option-box">
+          <h4>Random background</h4>
+          <div class="random-backgrounds">
+            <span class="yes active" data-background="yes">Yes</span>
+            <span class="no" data-background="no">NO</span>
+          </div>
+        </div>
+        <div class="option-box">
+          <h4>Show Bullets</h4>
+          <div class="bullets-option">
+            <span class="yes active" data-display="yes">Yes</span>
+            <span class="no" data-display="no">NO</span>
+          </div>
+        </div>
+          <button class="reset-options">Reset Options</button>
+      </div>
+    </div>
+    <!--End Settings Box--> 
+
+    <!--Start Nav Bullets-->
+    <div class="nav-bullets">
+      <div class="bullet" data-section=".about-us">
+        <div class="tooltip">About Us</div>
+      </div>
+      <div class="bullet" data-section=".Skills">
+        <div class="tooltip">Our Skills</div>
+      </div>
+      <div class="bullet" data-section=".Gallary">
+        <div class="tooltip">Our Gallary</div>
+      </div>
+      <div class="bullet" data-section=".Timeline"> 
+        <div class="tooltip">Timeline</div>
+      </div>
+      <div class="bullet" data-section=".Features">
+        <div class="tooltip">Our Features</div>
+      </div>
+      <div class="bullet" data-section=".Testimonials">
+        <div class="tooltip">Testimonials</div>
+      </div>
+    </div>
+    <!--End Nav Bullets-->
+
+    <!-- start landing page--> 
+    <div class="landing-page">
+        <div class="overlay"></div>
+        <div class="container">
+          <div class="header-area">
+            <div class="logo">Template-1</div>
+            <div class="links-container">
+              <div class="links">
+                <ul>
+                  <li><a href="#" class="active" data-section=".about-us">About</a></li>
+                  <li><a href="#" data-section=".Skills">skills</a></li>
+                  <li><a href="#" data-section=".Gallary">gallary</a></li>
+                  <li><a href="#" data-section=".Timeline">timeline</a></li>
+                  <li><a href="#" data-section=".Features">features</a></li>
+                  <li><a href="#" data-section=".Testimonials">testimonials</a></li>
+                </ul>
+                <button class="toggle-menu">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      <div class="introduction-text">
+        <h1>Welcome to my <span>Creative</span> organization </h1>
+        <p>We can build your site professionally and quickly, you just have to trust us and thank you for dealing with us</p>
+      </div>
+    </div>   
+    <!-- end landing page--> 
+    <!--Start About Us-->
+    <div class="container">
+      <div class="about-us">
+        <div class="info-box">
+          <h2>About Us</h2>
+          <p>With us, you can only think and imagine any design, and we can implement it as soon 
+            as possible, with the best quality and the most skilled team of professional engineers</p>
+        </div>
+        <div class="imag-box">
+          <img src="IMAGE/8.jpg" alt="">
+        </div>
+      </div>
+    </div>
+    <!--End About Us-->
+    <!--Start Our Skills--> 
+    <div class="skills">
+      <div class="container">
+        <h2>Our Skills</h2>
+        <div class="skill-box">
+          <div class="skill-name">HTML</div>
+          <div class="skill-progress">
+            <span data-progress="46%"></span>
+          </div>
+        </div>
+        <div class="skill-box">
+          <div class="skill-name">CSS</div>
+          <div class="skill-progress">
+            <span data-progress="64%"></span>
+          </div>
+        </div>
+        <div class="skill-box">
+          <div class="skill-name">Javascript</div>
+          <div class="skill-progress">
+            <span data-progress="56%"></span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--End Our Skills-->
+    <!--Start Gallary-->
+    <div class="gallary">
+      <div class="container">
+        <h2>Our Gallary</h2>
+        <div class="images-box">
+          <img src="IMAGE/14.png" alt="Image One">
+          <img src="IMAGE/2.jpg" alt="Image Two">
+          <img src="IMAGE/11.jpg" alt="Image Three">
+          <img src="IMAGE/12.jpg" alt="Image Four">
+          <img src="IMAGE/5.jpg" alt="Image Five">
+          <img src="IMAGE/13.png" alt="">
+          <img src="IMAGE/7.png" alt="">
+          <img src="IMAGE/8.jpg" alt="">
+          <img src="IMAGE/9.jpg" alt="">
+          <img src="IMAGE/10.jpg" alt="">
+        </div>
+      </div>
+    </div>
+    <!--End Gallary-->
+    <!--Start Timeline-->
+    <div class="timeline">
+      <div class="container">
+        <div class="timeline-content">
+          <div class="year">2023</div>
+          <div class="left">
+            <div class="content">
+              <h3>Testing Heading</h3>
+              <p>With us, you can only think and imagine any design, and we can implement it as soon as 
+                possible, with the best quality and the most skilled team of professional engineers</p>
+            </div>
+          </div>
+          <div class="clearfix"></div>
+          <div class="right">
+            <div class="content">
+              <h3>Testing Heading</h3>
+              <p>With us, you can only think and imagine any design, and we can implement it as soon as 
+                possible, with the best quality and the most skilled team of professional engineers</p>
+            </div>
+          </div>
+          <div class="clearfix"></div>
+
+          <div class="year">2022</div>
+          <div class="left">
+            <div class="content">
+              <h3>Testing Heading</h3>
+              <p>With us, you can only think and imagine any design, and we can implement it as soon as 
+                possible, with the best quality and the most skilled team of professional engineers</p>
+            </div>
+          </div>
+          <div class="clearfix"></div>
+          <div class="right">
+            <div class="content">
+              <h3>Testing Heading</h3>
+              <p>With us, you can only think and imagine any design, and we can implement it as soon as 
+                possible, with the best quality and the most skilled team of professional engineers</p>
+            </div>
+          </div>
+        </div>
+        </div>
+      </div>
+    </div>
+    <!--End Timeline-->
+    <!--Start Features-->
+    <div class="features">
+      <h2>Our Features</h2>
+      <div class="container">
+        <div class="feat-box">
+          <img src="IMAGE/26.png" alt="">
+          <h4> Development</h4>
+          <p>Need A Website ? We Have Got You Covered</p>
+        </div>
+        <div class="feat-box">
+          <img src="IMAGE/27.png" alt="">
+          <h4>SEO</h4>
+          <p>Need A Website ? We Have Got You Covered</p>
+        </div>
+        <div class="feat-box">
+          <img src="IMAGE/28.png" alt="">
+          <h4>Hosting</h4>
+          <p>Need A Website ? We Have Got You Covered</p>
+        </div>
+        <div class="feat-box">
+          <img src="IMAGE/23.png" alt="">
+          <h4>Database</h4>
+          <p>Need A Website ? We Have Got You Covered</p>
+        </div>
+        <div class="feat-box">
+          <img src="IMAGE/24.png" alt="">
+          <h4>Coding</h4>
+          <p>Need A Website ? We Have Got You Covered</p>
+        </div>
+        <div class="feat-box">
+          <img src="IMAGE/25.png" alt="">
+          <h4>Design</h4>
+          <p>Need A Website ? We Have Got You Covered</p>
+        </div>
+        <div class="clearfix"></div>
+      </div>
+    </div>
+    <!--End Features-->
+    <!--Start Testimonials-->
+    <div class="testimonials">
+      <div class="container">
+        <h2>Testimonials</h2>
+        <div class="ts-box">
+          <p>With us, you can only think and imagine any design, and we can implement it as soon as possible,
+             with the best quality and the most skilled team of professional engineers</p>
+          <div class="person-info">
+            <img src="IMAGE/30.png" alt="">
+            <h4>Ali Ayman</h4>
+            <p>Founder and CEO of the company</p>
+          </div>
+        </div>
+        <div class="ts-box">
+          <p>With us, you can only think and imagine any design, and we can implement it as soon as possible,
+             with the best quality and the most skilled team of professional engineers</p>
+          <div class="person-info">
+            <img src="IMAGE/29.png" alt="">
+            <h4>Omar Khalifa</h4>
+            <p>Founder and CEO of the company</p>
+          </div>
+        </div>
+        <div class="ts-box">
+          <p>With us, you can only think and imagine any design, and we can implement it as soon as possible,
+             with the best quality and the most skilled team of professional engineers</p>
+          <div class="person-info">
+            <img src="IMAGE/31.png" alt="">
+            <h4>Omar Ibrahim</h4>
+            <p>Founder and CEO of the company</p>
+          </div>
+        </div>
+      </div>
+      <div class="clearfix"></div>
+    </div>
+    <!--End Testimonials-->
+    <!--Start contact-->
+    <div class="contact">
+      <div class="overlay"></div>
+      <div class="container">
+        <h2>Content Us</h2>
+        <form action="">
+          <div class="left">
+            <input type="text" placeholder="Your Name" name="name">
+            <input type="text" placeholder="Your Phone" name="Phone">
+            <input type="email" placeholder="Your Email" name="email">
+            <input type="text" placeholder="Subject" name="Subject">
+          </div>
+          <div class="right">
+            <textarea placeholder="Your Massage" name="Massage"></textarea>
+            <input type="submit" value="send">
+          </div>
+        </form>
+      </div>
+    </div>
+    <!--End contact-->
+    <!--Start Footer-->
+    <div class="footer">Created With Love By ENG/Ali Ayman</div>
+    <!--End Footer-->
+    <script src="JS/template1.js"></script>  
+  </body>
+</html>
